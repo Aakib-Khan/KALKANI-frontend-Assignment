@@ -71,10 +71,10 @@ const AnimeCharacter: React.FC<AnimeCharacterProps> = ({ character }) => {
         </div>
       </div>
       {/* <div className="relative" > */}
-      <div className="ml-4 border-2 border-l border-black h-[159px] sm: lg:absolute lg:right-[220px] sm:absolute sm:right-[200px]  "></div>
+      <div className="ml-4 border-2 border-l border-black h-[159px]  lg:absolute lg:right-[220px] sm:absolute sm:right-[140px]  "></div>
       <a
         title="Click me"
-        className="ml-4 hover:scale-150  text-[50px] text-blue-700 sm:absolute sm:right-[100px] lg:absolute lg:right-[100px] xs:absolute xs:right-[200px] "
+        className="ml-4 hover:scale-150  text-[50px] text-blue-700 sm:absolute sm:right-[50px] lg:absolute lg:right-[100px] xs:absolute xs:right-[200px] "
         href={character?.url}
       >
         &#x2192;

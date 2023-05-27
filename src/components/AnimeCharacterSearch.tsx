@@ -128,7 +128,7 @@ const AnimeCharacterSearch: React.FC = () => {
         <p>Loading...</p>
       ) : (
         <>
-          {searchQuery  && totalResults > 0 ? (
+          {searchQuery  && totalResults > 0  ? (
             <p className="lg:ml-[50px] mt-7 ">
               Total {totalResults} matching anime characters found
             </p>
